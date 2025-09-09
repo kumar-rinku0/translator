@@ -1,0 +1,110 @@
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.translator-container {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    padding: 2vmin;
+    border: .5vmin solid whitesmoke;
+    border-radius: 8px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: 
+    repeating-conic-gradient(#0002 0.000095%, #fff0 .0005%, #fff0 .005%, #fff0 .0005%), 
+    repeating-conic-gradient(#0002 0.00001%, #fff0 .00009%, #fff0 .00075%, #fff0 .000025%);
+    opacity: 0.75;
+}
+
+h2 {
+    text-align: center;
+    color: #eee;
+}
+
+.auto-mode-name {
+	font-size: 3vmin;
+    text-align: center;
+    color: #eee;
+}
+
+textarea {
+	width: 60vmin;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+.drop-down-container {
+  width: 60%;
+  display: flex;
+  gap: 5vmin;
+  justify-content: center;
+  align-items: center;
+}
+
+select#to, select#from{
+  width: 24vmin;
+  height: 2rem;
+  border: none;
+  background: white;
+}
+
+
+#trans-btn {
+  font-size: 1rem;
+    font-weight: 600;
+    display: block;
+    width: 10rem;
+    padding: 1rem;
+    background-color: #178889e0;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#trans-btn:hover {
+    background-color: #0056b3;
+}
+
+#output-text {
+	width: 60vmin;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #202837, #1f2425);
+    background: linear-gradient(135deg, #1c232f, #1b212f, #090c10);
+    font-family: 'Roboto', Arial, Helvetica, serif;
+  }
+  
+.fa-arrow-right-arrow-left:before, .fa-exchange:before {
+    content: "\f0ec";
+    color: white;
+}
+  
+  
